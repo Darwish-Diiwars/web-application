@@ -1,0 +1,57 @@
+/* style.css */
+
+/* Set the body background color and font */
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    font-family: Arial, sans-serif; /* Set a clean font */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding to the body */
+}
+
+/* Style the main heading */
+h1 {
+    color: #333; /* Dark gray text color */
+    text-align: center; /* Center the text */
+}
+
+/* Style the form */
+form {
+    background-color: #fff; /* White background for the form */
+    padding: 20px; /* Add padding inside the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Max width for the form */
+    margin: 20px auto; /* Center the form */
+}
+
+/* Style form labels */
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input */
+    margin-bottom: 15px; /* Space below input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 3px; /* Slightly rounded corners */
+}
+
+/* Style the submit button */
+button {
+    background-color: #28a745; 
+    color: white;
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: #218838; 
+}
